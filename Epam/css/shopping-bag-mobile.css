@@ -1,0 +1,48 @@
+@media  screen and (max-width: 375px){
+    .wrapper-narrow{
+        flex-direction: column;
+    }
+    input[value="Checkout"]{
+        order: 1;
+        margin: 16px auto 20px auto;
+    }
+    input[value="Empty bag"]{
+        order: 2;
+        margin: 0 auto 98px auto;
+    }
+    .sum-discount, .sum-price{
+        margin: 0 auto;
+    }
+    .sum-discount{
+        text-align: center;
+        margin: 0 0 13px 0;
+    }
+    .advertisement {
+        width: 325px;
+        font-size: 10px;
+        margin: 17px auto 30px auto;
+        line-height: 1.6;
+        padding: 14px 25px 15px 25px;
+    }
+    .wrapper-narrow p {
+        width: 175px;
+    }
+    .footer__under {
+        flex-direction: row;
+    }
+    .logo-bag {
+        font-size: 18px;
+    }
+    .blk {
+        margin: 0 0 42px 0;
+    }
+    .wrap-blk {
+        width: 335px;
+    }
+    .quantity-minus {
+        margin: 13px 0 0 5px;
+    }
+    .quantity-plus {
+        margin: 10px 0 0 11px;
+    }
+}
