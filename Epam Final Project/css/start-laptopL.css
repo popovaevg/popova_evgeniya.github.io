@@ -1,0 +1,50 @@
+@media  screen and (min-width: 1400px){
+    .wrapperL{
+        width: 1400px;
+        margin: 0 auto;
+        position: relative;
+    }
+    .wrapperL:before{
+        content: "";
+        background: linear-gradient(to left, #e5e5e5, #ffffff), linear-gradient(to left, #e5e5e5, #ffffff);
+        top: 0;
+        left: 10px;
+        width: 40px;
+        height: 1px;
+        display: block;
+        position: absolute;
+    }
+    .wrapperL:after{
+        content: "";
+        background: linear-gradient(to right, #e5e5e5, #ffffff), linear-gradient(to right, #e5e5e5, #ffffff);
+        top: 0;
+        right: 10px;
+        width: 40px;
+        height: 1px;
+        display: block;
+        position: absolute;
+    }
+    .wrapperL1:before{
+        content: "";
+        background: linear-gradient(to left, #e5e5e5, #ffffff), linear-gradient(to left, #e5e5e5, #ffffff);
+        bottom: 0;
+        left: 10px;
+        width: 40px;
+        height: 1px;
+        display: block;
+        position: absolute;
+    }
+    .wrapperL1:after{
+        content: "";
+        background: linear-gradient(to right, #e5e5e5, #ffffff), linear-gradient(to right, #e5e5e5, #ffffff);
+        bottom: 0;
+        right: 10px;
+        width: 40px;
+        height: 1px;
+        display: block;
+        position: absolute;
+    }
+    .wrapperL1-footer:before, .wrapperL1-footer:after{
+        bottom: 48px;
+    }
+}

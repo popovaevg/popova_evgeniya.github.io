@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LogIn</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/table-media.css">
+    <link rel="stylesheet" href="css/mob-media.css">
+    <link rel="stylesheet" href="css/desctop-monitor-media.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>  
+</head>
+<body>
+    <header class="container-fluid black-line">
+        <div class="line-header">            
+            <a class="title" href="./index.html">CLOTH & FASHION</a>
+            <a class="basket" href="./basket.html"><img src="images/iconCarrinho.png" alt="basket"></a>
+            <a class="login" href="#">LOGIN</a>
+        </div>
+    </header>
+
+    <ul class="nav nav-tabs" id="myTab">
+        <li class="active"><a href="#login" data-toggle="tab">LOGIN</a></li>
+        <li><a href="#registration" data-toggle="tab">REGISTRATION</a></li>
+    </ul>
+    <main class="tab-content">
+        <div class="tab-pane active" id="login">
+            <form class="myform11 container" action="#">
+                <input class="field11" type="text" placeholder="LOGIN" pattern="/^[a-z0-9_-]{3,16}$/">
+                <br><input class="field11" type="password" placeholder="SENHA" pattern="/^[a-z0-9_-]{6,18}$/">
+                <br class="wrap-send"><input class="send11" type="submit" value="ENTRADA">
+            </form> 
+        </div>
+        <div class="tab-pane" id="registration">
+            <div class="tab-pane active" id="login">
+                <form class="myform11 container" action="#">
+                    <input class="field11" type="email" placeholder="E-MAIL" pattern="/^([a-z0-9_\.-]+)@([a-z0-9_\.-]+\.([a-z\.]{2,6})$/">
+                    <br><input class="field11" type="password" placeholder="SENHA" pattern="/^[a-z0-9_-]{6,18}$/">
+                    <br class="wrap-send"><input class="send11" type="submit" value="CRIAR CONTA">
+                </form> 
+            </div>
+        </div>
+    </main>
+    <footer class="container-fluid footer">
+        <div class="wraper-footer">
+            <ul class="footer-menu">
+                <li><a href="">SOBRE</a></li>
+                <li><a href="contacts.html">CONTATO</a></li>
+                <li><a href="">TERMOS & CONDIÇÕES</a></li>
+                <li><a href="">POLÍTICA DE PRIVACIDADE</a></li>
+            </ul>
+            <ul class="link">
+                <li><a href=""><div class="link-inst"><img src="images/iconINSTA.png" alt=""></div></a></li>
+                <li id="twit"><a href=""><div class="link-twiter"><img src="images/iconTWITTER.png" alt=""></div></a></li>
+                <li><a href=""><div class="link-f"><img src="images/iconFACE.png" alt=""></div></a></li>
+            </ul>
+        </div>
+    </footer>
+    <footer class="container-fluid footer-mobile"></footer>
+</body>
+</html>

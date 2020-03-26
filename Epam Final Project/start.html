@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start</title>
+    
+    <link rel="stylesheet" href="./css/start-desktop.css">
+    <link rel="stylesheet" href="./css/start-laptopL.css">
+    <link rel="stylesheet" href="./css/start-tablet.css">
+    <link rel="stylesheet" href="./css/start-mobile.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Template</a>
+        <a href="#" class="logo-mob">TL</a>
+        <a class="right-menu shopping-bag" href="shopping-bag.html">Bag (<span id="numberOfGoods">0</span>)</a>
+        <a class="right-menu hide-on-mobile" href="">E-mail sing up</a>
+        <div class="wrapper-burger-menu">
+            <input type="checkbox" id="check-menu">
+            <label for="check-menu"></label>
+            <div class="burger-line first"></div>
+            <div class="burger-line second"></div>
+            <div class="burger-line third"></div>
+            <div class="burger-line fourth"></div>
+            <nav class="burger-menu">
+                <a href="" class="burger-menu__link">Women</a>
+                <a href="" class="burger-menu__link">Men</a>
+                <a href="" class="burger-menu__link">Handbags</a>
+                <a href="" class="burger-menu__link">Accessories</a>
+                <a href="" class="burger-menu__link">Sale</a>
+                <a href="" class="burger-menu__link">New Arrivals</a>
+                <a href="" class="burger-menu__link">Clearance</a>
+                <a href="" class="burger-menu__link">Store Locator</a>
+                <form action="#" class="search1">
+                    <input type="search" placeholder="Style Name">
+                    <div class="loupe"></div>
+                </form>
+            </nav>
+        </div>
+        <div class="clear"></div>
+        <nav class="top-menu">
+            <ul>
+                <li><a href="">Women</a></li>
+                <li><a href="">Men</a></li>
+                <li><a href="">Handbags</a></li>
+                <li><a href="">Accessories</a></li>
+                <li><a href="">Sale</a></li>
+                <li class="gradient"><a href="">New Arrivals</a></li>
+                <li><a href="">Clearance</a></li>
+                <li><a href="">Store Locator</a></li>
+            </ul>
+        </nav>
+        <form action="#" class="search">
+            <input type="search" placeholder="Style Name" class="search-input">
+            <div class="loupe" onclick="visibleSearch()"></div>
+        </form>
+    </header>
+    <div class="clear"></div>
+    <div class="wrapperL">
+        <section class="wrapper-wide">
+            <a href="catalog.html" class="img-right">
+                <div>Caps & Hats</div>
+                <p class="p-italic">Sale -50%</p>
+            </a>
+            <a href="item.html" class="img-left">
+                <div>Nike Red</div>
+            </a>
+            <div class="clear"></div>
+        </section>
+        <div class="wrapperL1"></div>
+    </div>
+    <section class="wrapper-narrow">
+       <a id="best-offer" href="item.html"><h1>Best offer</h1></a>
+        <p class="p-italic">This offer is valid in-store and online. Prices displayed reflect this additional discount. This offer ends at 11:59 GMT on March 1st 2019</p>
+        <div class="slideshow-container">
+            <a class="arrow prev" onclick="pluseSlides(-1)"><span></span></a>
+            <div class="mySlides">
+                <a class="link-block" href="">
+                    <span class="new">NEW</span>
+                    <img class="img-item" alt="t-shirt">
+                    <div class="hvr-img">View item</div>
+                    <div class="text"></div>
+                </a>
+                <div class="price priseOnSlide"></div>
+                <span class="discount-price discountPriceOnSlide"></span>
+            </div>
+            <div class="mySlides">
+                <a class="link-block" href="">
+                    <img class="img-item" alt="t-shirt">
+                    <div class="hvr-img">View item</div>
+                    <div class="text"></div>
+                </a>
+                <div class="price priseOnSlide"></div>
+                <span class="discount-price discountPriceOnSlide"></span>
+            </div>
+            <a class="arrow next" onclick="pluseSlides(1)"><span></span></a>
+        </div>
+        <div class="plus"></div>
+        <div class="slideshow-container">
+            <a class="arrow prev" onclick="pluseSlides2(-1)"><span></span></a>
+            <div class="mySlides2">
+                <a class="link-block" href="">
+                    <img class="img-item" alt="t-shirt">
+                    <div class="hvr-img">View item</div>
+                    <div class="text"></div>
+                </a>
+                <div class="price priseOnSlide2"></div>
+                <span class="discount-price discountPriceOnSlide2"></span>
+            </div>
+            <div class="mySlides2">
+                <a class="link-block" href="">
+                    <img class="img-item" alt="top">
+                    <div class="hvr-img">View item</div>
+                    <div class="text"></div>
+                </a>
+                <div class="price priseOnSlide2"></div>
+                <span class="discount-price discountPriceOnSlide2"></span>
+            </div>
+            <div class="mySlides2">
+                <a class="link-block" href="">
+                    <img class="img-item" alt="t-shirt">
+                    <div class="hvr-img">View item</div>
+                    <div class="text"></div>
+                </a>
+                <div class="price priseOnSlide2"></div>
+                <span class="discount-price discountPriceOnSlide2"></span>
+            </div>
+            <a class="arrow next" onclick="pluseSlides2(1)"><span></span></a>
+        </div>
+        <div class="equal"></div>
+        <div class="old-price">£161.00</div>
+        <div class="new-price">£146.00</div>
+        <input class="btn-big" type="button" value="Add to bag" onclick="location.href='shopping-bag.html'">
+        <div class="clear"></div>
+    </section>
+    <div class="wrapperL"><div class="line"></div></div>
+    <section class="wrapper-narrow">
+        <a id="new-arrivals" href="item.html"><h1>New arrivals</h1></a>
+        <div class="wrapper-narrow__container">
+            <div>
+                <a class="link-block" href="">
+                    <span class="new">NEW</span>
+                    <img class="img-item" alt="t-shirt">
+                    <div class="hvr-img">View item</div>
+                    <div class="text"></div> 
+                </a>
+                <div class="price"></div>
+            </div>
+            <div>
+                <a class="link-block" href="">
+                    <span class="new">NEW</span>
+                    <img class="img-item" alt="t-shirt">
+                    <div class="hvr-img">View item</div> 
+                    <div class="text"></div>
+                </a>
+                <div class="price"></div>
+            </div>
+            <div class="hide-on-mobile">
+                <a class="link-block" href="">
+                    <img class="img-item" alt="t-shirt">
+                    <div class="hvr-img">View item</div>
+                    <div class="text"></div>
+                </a>
+                <div class="price"></div>
+            </div>
+            <div class="hide-on-tablet">
+                <a class="link-block" href="">
+                    <img class="img-item" alt="t-shirt">
+                    <div class="hvr-img">View item</div>
+                    <div class="text"></div>
+                </a>
+                <div class="price"></div>
+            </div>
+        </div>
+        <input class="btn-big btn-big2" type="button" value="All arrivals" onclick="location.href='catalog.html'">
+    </section>
+    <div class="wrapperL">
+        <footer class="footer">
+            <nav class="footer__menu">
+                <ul>
+                    <h4>Quick Links</h4>
+                    <li><a href="">Store locator</a></li>
+                    <li><a href="">Gift cards</a></li>
+                    <li><a href="">Size guide</a></li>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Support</a></li>
+                </ul>
+                <ul>
+                    <h4>Customer Care</h4>
+                    <li><a href="">Customer service</a></li>
+                    <li><a href="">Track my order</a></li>
+                    <li><a href="">Return policy</a></li>
+                    <li><a href="">Shipping & delivery</a></li>
+                    <li><a href="">Contact us</a></li>
+                    <li><a href="">Careers</a></li>
+                </ul>
+            </nav>
+            <div class="footer__info">
+                <div class="footer__info__wrap brd-right">
+                    <h4>Questions</h4>
+                    <div class="info twitter-grey">Tweet us <span class="info-bold">@template</span></div>
+                </div>
+                <div class="footer__info__wrap">
+                    <h4>Order by phone</h4>
+                    <div class="info">8-800-409-47-12</div>
+                </div>
+                <div class="info__comment">We have our own delivery service which operates in 23 major European cities. Delivery time - 3-5 days.</div>
+                <nav class="wrapper-footer-last-menu">
+                    <ul class="footer-last-menu">
+                        <li><a href="">Legal notice</a></li>
+                        <li><a href="">Privacy policy</a></li>
+                        <li><a href="">Site map</a></li>
+                    </ul>
+                    <a class="facebook" href=""></a>
+                    <a class="twitter-blue" href=""></a>  
+                </nav>          
+            </div>
+            <div class="clear"></div>
+            <div class="wrapper-narrow footer__under">
+                <div>© 2010–2015, The Template Group inc.</div>
+                <div class="share">Share<span>1 437</span></div>
+                <nav>
+                    <ul>
+                        <li><a href="">Legal notice</a></li>
+                        <li><a href="">Privacy policy</a></li>
+                        <li><a href="">Site map</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+        <div class="wrapperL1 wrapperL1-footer"></div>
+    </div>
+
+    <script src="./data/catalog.js"></script>
+    <script src="./js/src/variables.js"></script>
+    <script src="./js/src/start.js"></script>
+    <script src="./js/src/common.js"></script>
+    <script src="./js/src/sliders.js"></script>
+</body>
+</html>
