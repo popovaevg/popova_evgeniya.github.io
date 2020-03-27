@@ -1,0 +1,95 @@
+.MultiCarousel { 
+    float: left; 
+    overflow: hidden; 
+    padding: 15px; 
+    width: 100%; 
+    position:relative; 
+}
+.MultiCarousel .MultiCarousel-inner { 
+    transition: 1s ease all; 
+    float: left; 
+    margin: 10px 0;
+}
+.MultiCarousel .MultiCarousel-inner .item { 
+    float: left;
+}
+.MultiCarousel .MultiCarousel-inner .item > div { 
+    text-align: center; 
+    padding: 8px; 
+    margin: 20px 8px;
+}
+.MultiCarousel .leftLst, .MultiCarousel .rightLst { 
+    position:absolute; 
+    border-radius:50%;
+    top:calc(50% - 20px); 
+}
+.MultiCarousel .leftLst { 
+    left:0; 
+}
+.MultiCarousel .rightLst { 
+    right:0; 
+}  
+.MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { 
+    pointer-events: none; 
+    background: transparent; 
+}
+.it-mca{
+    text-align: center;
+    position: relative;
+}
+.it-mca p{
+    letter-spacing: 0.43px;
+}
+.it-mca h3{
+    display: none;
+}
+.it-mca .after-multicar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+}
+.it-mca:hover .after-multicar {
+    display: block;
+    width: 184px;
+    height: 28px;
+    background: rgba(0, 0, 0, .6);
+}
+.btn-primary {
+    color: #d0d0d0;
+    background-color: transparent;
+    border-color: transparent; 
+}
+.btn {
+    font-size: 20px;
+    padding: 0;
+    border: none;
+}
+.btn-primary:hover {
+    color: #999999;
+    background-color: transparent;
+    border-color: transparent;
+}
+.btn-primary:active:focus, .btn-primary:active:hover{
+    color: #999999;
+    background-color: transparent;
+    border-color: transparent; 
+}
+.btn-primary:active{
+    color: #999999;
+    background-color: transparent;
+    border-color: transparent; 
+}
+.btn-primary:focus {
+    color: #999999;
+    background-color: transparent;
+    border-color: transparent; 
+}
+.sale{
+    margin-top: -56px;
+}

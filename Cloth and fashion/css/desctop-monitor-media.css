@@ -1,0 +1,195 @@
+@media  screen and (min-width: 1920px){
+    .back-top-carucel {
+        height: 22px;
+        font-size: 20px;
+        padding-top: 4px;
+    }
+    #top-carousel{
+        width: 1740px;
+    }
+    .my-caption h1{
+        font-size: 55px;
+    }
+    .my-caption h2{
+        font-size: 33px;
+    }
+    .my-caption h1:after{
+        width: 450px;
+    }
+    .my-caption a{
+        font-size: 35px;
+        width: 148px;
+        height: 50px;
+    }
+    .line-header {
+        width: 1740px;
+    }
+    .black-line {
+        height: 55px;
+    }
+    .title {
+        font-size: 40px;
+    }
+    .ad-menu nav::before, .ad-menu::after {
+        margin-top: 16px;
+    }
+    .login {
+        font-size: 38px;
+    }
+    .basket {
+        margin: 12px 0 0 36px;
+    }
+    .title-wraper {
+        font-size: 34px;
+    }
+    .title-wraper:before {
+        top: 10px;
+        left: 580px;
+    }
+    .title-wraper:after { 
+        top: 10px;
+        right: 580px;
+    }
+    .wraper {
+        width: 1740px;
+    }
+    .it-mca p {
+        font-size: 25px;
+    }
+    .wraper2 {
+        width: 1740px;
+    }
+    .img1 {
+        width: 845px;
+        height: 646px;
+    }
+    .img1 img, .img2 img, .img3 img, .img4 img, .img5 img, .img6 img, .img11 img, .img22 img, .img33 img, .img44 img, .img55 img, .img img{
+        width: 100%;
+        height: 100%;
+    }
+    .img1:hover .after-bigimg {
+        width: 845px;
+        height: 646px;
+    }
+    .img2{
+        width: 833px;
+        height: 646px;
+    }
+    .img2:hover .after-bigimg {
+        width: 833px;
+        height: 646px;
+    }
+    .name {
+        font-size: 45px;
+        padding-top: 310px;
+    }
+    .img3{
+        width: 1029px;
+        height: 646px;
+    }
+    .img3:hover .after-bigimg {
+        width: 1029px;
+        height: 646px;
+    }
+    .img4{
+        width: 650px;
+        height: 646px;
+    }
+    .img4:hover .after-bigimg {
+        width: 650px;
+        height: 646px;
+    }
+    .img5{
+        width: 684px;
+        height: 646px;
+    }
+    .img5:hover .after-bigimg {
+        width: 684px;
+        height: 646px;
+    }
+    .img6{
+        width: 994px;
+        height: 652px;
+    }
+    .img6:hover .after-bigimg {
+        width: 994px;
+        height: 652px;
+    }
+    .title3-wraper {
+        font-size: 34px;
+    }
+    .title3-wraper:before {
+        top: 10px;
+        left: 682px;
+    }
+    .title3-wraper:after {
+        top: 10px;
+        right: 682px;
+    }
+    .img11 {
+        width: 321px;
+        height: 322px;
+    }
+    .img22, .img33, .img44, .img55 {
+        width: 322px;
+        height: 322px;
+    }
+    .img{
+        width: 405px;
+        height: 404px;
+    }
+    .myform {
+        width: 1740px;
+        font-size: 28px;
+    }
+    .letter {
+        width: 267px;
+        height: 64px
+    }
+    .letter:after {
+        border-left: 32px solid transparent;
+        border-right: 32px solid transparent;
+        border-bottom: 26px solid #000000;
+        top: 18px;
+        left: 247px;
+    }
+    .field {
+        height: 64px;
+        width: 525px;
+    }
+    .send {
+        width: 305px;
+        height: 64px;
+    }
+    .wraper-footer {
+        width: 1740px;
+    }
+    .footer{
+        font-size: 23px;
+    }
+    .footer-menu li {
+        padding: 14px 32px 8px 0;
+    }
+    .link li {
+        padding: 10px 0 0 23px;
+    }
+    #twit {
+        padding: 12px 0 0 23px;
+    }
+    .ad-menu li {
+        width: 343px;
+    }
+    .ad-menu li a {
+        padding: 13px 0 7px 0;
+        width: 311px;
+        font-size: 30px;
+    }
+    .img:hover .after-img {
+        width: 404px;
+        height: 403px;
+    }
+    .after-img {
+        font-size: 34px;
+        padding-top: 177px;
+    }
+}
