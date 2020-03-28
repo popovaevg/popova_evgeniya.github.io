@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Item</title>
+    <link rel="stylesheet" href="./css/start-desktop.css">
+    <link rel="stylesheet" href="./css/catalog-desktop.css">
+    <link rel="stylesheet" href="./css/item-desktop.css">
+    <link rel="stylesheet" href="./css/catalog-tablet.css">
+    <link rel="stylesheet" href="./css/start-tablet.css">
+    <link rel="stylesheet" href="./css/item-tablet.css">
+    <link rel="stylesheet" href="./css/start-mobile.css">
+    <link rel="stylesheet" href="./css/catalog-mobile.css">
+    <link rel="stylesheet" href="./css/item-mobile.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Template</a>
+        <a href="#" class="logo-mob">TL</a>
+        <a class="right-menu shopping-bag" href="shopping-bag.html">Bag £<span id="sum-bag">236.50</span> (<span id="numberOfGoods">4</span>)</a>
+        <a class="right-menu hide-on-mobile" href="">E-mail sing up</a>
+        <div class="wrapper-burger-menu">
+            <input type="checkbox" id="check-menu">
+            <label for="check-menu"></label>
+            <div class="burger-line first"></div>
+            <div class="burger-line second"></div>
+            <div class="burger-line third"></div>
+            <div class="burger-line fourth"></div>
+            <nav class="burger-menu">
+                <a href="" class="burger-menu__link active">Women</a>
+                <a href="" class="burger-menu__link">Men</a>
+                <a href="" class="burger-menu__link">Handbags</a>
+                <a href="" class="burger-menu__link">Accessories</a>
+                <a href="" class="burger-menu__link">Sale</a>
+                <a href="" class="burger-menu__link">New Arrivals</a>
+                <a href="" class="burger-menu__link">Clearance</a>
+                <a href="" class="burger-menu__link">Store Locator</a>
+                <form action="#" class="search1">
+                    <input type="text" placeholder="Style Name">
+                    <div class="loupe"></div>
+                </form>
+            </nav>
+        </div>
+        <div class="clear"></div>
+        <nav class="top-menu">
+            <ul>
+                <li><a href="" class="active">Women</a></li>
+                <li><a href="">Men</a></li>
+                <li><a href="">Handbags</a></li>
+                <li><a href="">Accessories</a></li>
+                <li><a href="">Sale</a></li>
+                <li class="gradient"><a href="">New Arrivals</a></li>
+                <li><a href="">Clearance</a></li>
+                <li><a href="">Store Locator</a></li>
+            </ul>
+        </nav>
+        <form action="#" class="search">
+            <input type="text" placeholder="Style Name" class="search-input">
+            <div class="loupe" onclick="visibleSearch()"></div>
+        </form>
+        <div class="clear"></div>
+    </header>
+    <div class="map">
+        <a href="catalog.html">< Back to catalog</a>
+    </div>
+    <section class="wrapper-narrow">
+        <div class="gallery__wrapper">
+            <div class="gallery__big-img1"></div>
+            <div class="gallery__big-img2"></div>
+            <div class="gallery__big-img3"></div>
+            <div class="gallery__wrapper__small-imgs">
+                <div class="gallery__small-img1" onclick="currentImg1()"><div class="wrapper-active small-img-active"></div></div>
+                <div class="gallery__small-img2" onclick="currentImg2()"><div class="wrapper-active"></div></div>
+                <div class="gallery__small-img3" onclick="currentImg3()"><div class="wrapper-active"></div></div>
+            </div>
+        </div>
+        <div class="item-feature">
+            <h3 class="item-feature__title"></h3>
+            <p class="p-italic">Featuring fine Italian wool, this elegant suit has pick-stitch edging, cascade buttons at the cuffs and a subtle stripe pattern throughout. </p>
+            <p class="item-feature__price"></p>
+            <p class="item-feature__size">
+                <span>Size:</span> 
+            </p>
+            <p class="item-feature__color">
+                <span>Color:</span> 
+            </p>
+            <input class="btn-big" type="button" value="Add to bag" onclick="addToBag()">
+        </div>
+        <div class="clear"></div>
+    </section>
+    
+    <section class="wrapper-wide">
+        <a href="" class="announce1">
+            <div class="announce__title">Adidas Blue</div>
+            <p class="p-italic">For men</p>
+        </a>
+        <a href="" class="announce2">
+            <div class="announce__title">Repair Patches</div>
+            <p class="p-italic">£ 150.50</p>
+        </a>
+        <a href="" class="announce3">
+            <div class="announce__title">Sale</div>
+            <p class="p-italic">-70%</p>
+        </a>
+    </section>
+    <footer class="footer">
+        <nav class="footer__menu">
+            <ul>
+                <h4>Quick Links</h4>
+                <li><a href="">Store locator</a></li>
+                <li><a href="">Gift cards</a></li>
+                <li><a href="">Size guide</a></li>
+                <li><a href="">About us</a></li>
+                <li><a href="">Support</a></li>
+            </ul>
+            <ul>
+                <h4>Customer Care</h4>
+                <li><a href="">Customer service</a></li>
+                <li><a href="">Track my order</a></li>
+                <li><a href="">Return policy</a></li>
+                <li><a href="">Shipping & delivery</a></li>
+                <li><a href="">Contact us</a></li>
+                <li><a href="">Careers</a></li>
+            </ul>
+        </nav>
+        <div class="footer__info">
+            <div class="footer__info__wrap brd-right">
+                <h4>Questions</h4>
+                <div class="info twitter-grey">Tweet us <span class="info-bold">@template</span></div>
+            </div>
+            <div class="footer__info__wrap">
+                <h4>Order by phone</h4>
+                <div class="info">8-800-409-47-12</div>
+            </div>
+            <div class="info__comment">We have our own delivery service which operates in 23 major European cities. Delivery time - 3-5 days.</div>
+            <nav class="wrapper-footer-last-menu">
+                <ul class="footer-last-menu">
+                    <li><a href="">Legal notice</a></li>
+                    <li><a href="">Privacy policy</a></li>
+                    <li><a href="">Site map</a></li>
+                </ul>
+                <a class="facebook" href=""></a>
+                <a class="twitter-blue" href=""></a>  
+            </nav>          
+        </div>
+        <div class="clear"></div>
+        <div class="wrapper-narrow footer__under">
+            <div>© 2010–2015, The Template Group inc.</div>
+            <div class="share">Share<span>1 437</span></div>
+            <nav>
+                <ul>
+                    <li><a href="">Legal notice</a></li>
+                    <li><a href="">Privacy policy</a></li>
+                    <li><a href="">Site map</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    
+    <script src="./data/catalog.js"></script>
+    <script src="./js/variables.js"></script>
+    <script src="./js/gallery.js"></script>
+    <script src="./js/common.js"></script>
+    <script src="./js/item.js"></script>
+</body>
+</html>
