@@ -1,0 +1,87 @@
+body{
+    background: rgb(163, 162, 162) url(./img/about-bg.png);
+    font-family: Helvetica, sans-serif;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+
+}
+.main {
+    display: grid;
+    grid-gap: 20px;
+    width: 900px;
+    /* margin: 0 auto; */
+    float: left;
+}
+.main div {
+    background-color: rgb(247, 214, 142);
+    box-shadow: 0 0 10px black;
+}
+.main img {
+    width: 100%;
+}
+.pView {
+    padding: 0 15px;
+}
+.pList {
+    margin: 0;
+    padding: 5px 0 0 40px;
+}
+span {
+    position: relative;
+}
+span:before {
+    content: "";
+    background-image: url(./img/icon.png);
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -35px;;
+    z-index: 1;
+}
+header{
+    padding: 10px;
+    color: white;
+}
+header, section {
+    margin: 10px 5px;
+    background-color: rgb(165, 42, 42);
+}
+section {
+    background-color: rgba(247, 214, 142, 0.8);
+    margin: 0 17px 15px 5px;
+    float: left;
+}
+input[type="button"] {
+    margin: 0 5px;
+    border-radius: 5px;
+    padding: 3px 10px;
+    font-size: 14px;
+}
+input[value="Поиск"] {
+    margin: 10px 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: brown;
+}
+footer {
+    display: none;
+    background-color: rgb(36, 35, 35);
+    margin: 10px 5px;
+    height: 30px;
+    color: rgb(179, 178, 178);
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 15px;
+}
+.clear:after{
+	content: "";
+	clear: both;
+	display: block;
+}

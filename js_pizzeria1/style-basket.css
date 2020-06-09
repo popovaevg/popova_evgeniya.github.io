@@ -1,0 +1,40 @@
+body{
+    background: rgba(122, 122, 122, 0.801) url(./img/Pizza_Bell_pepper_Flour_Word_Lettering_572704_1440x900.jpg);
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+header {
+  width: 1040px;
+  margin: 10px 0;
+  background: rgba(0, 0, 0, 0.534);
+  border-radius: 10px;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-size: 20px;
+}
+main {
+  width: 1040px;
+  margin: 10px 0;
+  background: rgba(0, 0, 0, 0.534);
+  border-radius: 10px;
+  color: white;
+  padding: 15px;
+}
+input[type="text"]{
+  width: 280px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.651);
+  border: rgba(255, 255, 255, 0.651);
+  margin-left: 10px;
+}
+input[type="button"]{
+  background: rgba(255, 255, 255, 0.651);
+  border: rgba(255, 255, 255, 0.651);
+  padding: 5px 10px;
+  margin: 10px 0;
+  font-size: 14px;
+  border-radius: 5px;
+}
