@@ -1,0 +1,216 @@
+
+.new{
+	color: #34495e;
+	font-size: 16px;
+	font-weight: 400;
+	text-align: center;
+	width: 285px;
+}
+.new h3{
+	width: 267px;
+	margin-top: 40px;
+}
+.new p{
+	color: #2ecc71;
+	font-size: 20px;
+	font-weight: 400;
+	margin: 14px auto 16px auto;
+}
+.new span{
+	color: #bdc3c7;
+	font-weight: 300;
+	text-decoration: line-through;
+}
+.new:before{
+	content: "";
+	background: url('../images/hit.png');
+	width: 56px;
+	height: 55px;
+	display: block;
+	position: absolute;
+	right: 5px;
+	top: -19px;
+}
+.new:after{
+	content: "";
+	background: url('../images/is.png');
+	width: 143px;
+	height: 32px;
+	display: block;
+	position: absolute;
+	left: -7px;
+	bottom: 185px;
+}
+.new4:after{
+	content: "";
+	background: url('../images/isnt.png');
+	width: 154px;
+	height: 32px;
+	display: block;
+	position: absolute;
+	left: 18px;
+	bottom: 185px;
+}
+
+/* carusel */
+.in-box{
+	width: 171px;
+	height: 45px;
+	background-color: #2ecc71;
+	border-radius: 8px;
+	text-align: center;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 14px 29px;
+	display: block;
+	margin: 16px auto;
+}
+.in-box:hover{
+	color: #ffffff;
+	background-color: #34495e;
+	text-decoration: none;
+}
+.carousel-col{
+	text-align: center;
+}
+.buy{
+	color: #95a5a6;
+	font-size: 16px;
+	font-weight: 400;
+	text-decoration: none;
+	border-bottom: 1px dashed #95a5a6;
+}
+.buy:hover{
+	color: #2ecc71;
+	border-bottom: 1px dashed #2ecc71;
+	text-decoration: none;
+}
+.all-hits{
+	color: #95a5a6;
+	font-size: 20px;
+	font-weight: 700;
+	border-bottom: 1px dashed #95a5a6;
+	text-decoration: none;
+	float: right;
+	margin: 63px 0 87px 0;
+}
+.all-hits:hover{
+	color: #34495e;
+	border-bottom: 1px dashed #34495e;
+	text-decoration: none;
+}
+.carousel-control.right {
+    background-image: none;
+    background-image: none;
+    background-image: none;
+    background-image: none;
+    background-repeat: no-repeat;
+    right: auto;
+    margin-left: 1098px;
+    
+}
+.carousel-control.left{
+    background-image: none;
+    background-image: none;
+    background-image: none;
+    background-image: none;
+    background-repeat: no-repeat;
+    left: auto;
+}
+.carousel-control {
+    bottom: auto;
+    width: 41px;
+    height: 41px;
+    background-color: #ecf0f1;
+    border-radius: 6px;
+    text-shadow: none;
+    opacity: 1;
+    top: 13px;
+}
+.carousel-control:hover {
+    color: #ecf0f1;
+    opacity: 1;
+    background-color: #34495e;
+}
+.arrow-left{
+    transform: rotate(46deg);
+    width: 16px;
+    height: 16px;
+    border-left: 5px solid #34495e;
+    border-right: 5px solid #ecf0f1;
+    border-bottom: 5px solid #34495e;
+    border-top: 5px solid #ecf0f1;
+    margin: 12px 15px;
+}
+.carousel-control:hover .arrow-left{
+    border-left: 5px solid #ecf0f1;
+    border-right: 5px solid#34495e;
+    border-bottom: 5px solid #ecf0f1;
+    border-top: 5px solid #34495e;
+}
+.arrow-right{
+    transform: rotate(46deg);
+    width: 16px;
+    height: 16px;
+    border-left: 5px solid #ecf0f1;
+    border-right: 5px solid#34495e;
+    border-bottom: 5px solid #ecf0f1;
+    border-top: 5px solid #34495e;
+    margin: 12px 10px;
+}
+.carousel-control:hover .arrow-right{
+    border-left: 5px solid #34495e;
+    border-right: 5px solid #ecf0f1;
+    border-bottom: 5px solid #34495e;
+    border-top: 5px solid #ecf0f1;
+}
+
+.con{
+    position: relative;
+    margin: 80px auto 0 auto;
+    width: 1140px;
+}
+.car-ind li{
+    width: 263px;
+    height: 66px;
+    border: 2px solid #ecf0f1;
+	background-color: #ecf0f1;
+	text-indent: 0;
+	margin-right: 20px;
+}
+.car-ind .active {
+    width: 263px;
+    height: 66px;
+	background-color: #34495e;
+	border: 2px solid #34495e;
+	position: relative;
+	color: #ffffff;
+	margin-right: 20px;
+}
+.car-ind .active:after{
+    content: "";
+    width: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 10px solid #34495e;
+    position: absolute;
+	left: 0;
+	bottom: 0;
+    margin: -11px 20px;
+}
+.car-ind {
+	top: 0;
+	width: 76%;
+	color: #34495e;
+	margin-left: -37%;
+}
+.wraper-listbox{
+	margin-top: 146px;
+}
+.car-ind p{
+	margin-top: 25px;
+}
+.car-ind p2{
+	display: none;
+}
