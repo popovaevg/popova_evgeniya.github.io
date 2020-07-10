@@ -1,0 +1,97 @@
+@media screen and (max-width: 768px) {
+  .back {
+    height: 445px; }
+    .back:before {
+      height: 445px; }
+  .wrapper, .wrapper5, .slider-item__text {
+    width: 100%; }
+  .wrapper-text p {
+    margin: 0;
+    font-size: 23px; }
+  .wrapper-text h1 {
+    font-size: 65px; }
+  .wrapper2-item {
+    margin: 0 0 75px 35px; }
+    .wrapper2-item:last-child {
+      margin: 0 0 0 35px; }
+  .wrapper2-item__description {
+    width: 200px; }
+  .description {
+    font-size: 12px; }
+  .caption {
+    font-size: 13px; }
+    .caption:before {
+      width: 67px; }
+  .wrapper2-item__caption:before {
+    left: 64px; }
+  .wrapper2-item__icon:before {
+    left: 45px; }
+  .wrapper3__phone {
+    display: none; }
+  .wrapper3__text {
+    padding: 75px 30px;
+    width: auto; }
+  .slider-item__text {
+    margin: -220px 0 0 0; }
+  .slider-item__faceimg {
+    margin: -365px 0 0 329px; }
+  .slider-dots {
+    margin: -70px 0 0 360px; }
+  .slider, .slider-item__backimg {
+    height: 390px; }
+  .wrapper5__caption {
+    margin: 75px auto 51px auto; }
+    .wrapper5__caption:before {
+      left: 54px; }
+  .wrapper5-item1, .wrapper5-item6 {
+    margin: 0 0 0 -4px; }
+  .name {
+    font-size: 25px; }
+  .wrapper6-item {
+    margin: 40px 27px; }
+  footer div {
+    margin: 15px 30px;
+    font-size: 12px; } }
+
+@media screen and (max-width: 320px) {
+  .wrapper-menu, .wrapper2-item__description, .wrapper2-item__icon:before, .last {
+    display: none; }
+  .logo {
+    width: 170px;
+    margin: 0 0 0 75px; }
+  .wrapper-text__btnstart {
+    font-size: 14px;
+    padding: 16px 40px; }
+  .wrapper-text h1 {
+    font-size: 57px;
+    margin: 19px 0 28px 0; }
+  .wrapper-text div {
+    font-size: 10px;
+    margin: 41px 0 133px 0; }
+  .wrapper2-item__caption:before {
+    left: 13px; }
+  .wrapper2-item {
+    margin: 0 0 40px 6px; }
+    .wrapper2-item:last-child {
+      margin: 0 0 0 9px; }
+  .wrapper3__text {
+    padding: 55px 30px; }
+  .wrapper6-item {
+    margin: 32px 4px; }
+  .name {
+    font-size: 17px; }
+  footer div {
+    margin: 8px 4px;
+    font-size: 10px; }
+  .slider-item__faceimg {
+    margin: -365px 0 0 105px; }
+  .slider-item__text {
+    font-size: 20px; }
+  .slider-item__sign {
+    font-size: 14px; }
+  .slider-dots {
+    margin: -70px 0 0 135px; }
+  .wrapper5__caption {
+    margin: 50px auto 30px auto; }
+    .wrapper5__caption:before {
+      left: 55px; } }

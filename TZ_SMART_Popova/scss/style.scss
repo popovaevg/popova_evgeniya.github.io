@@ -1,0 +1,463 @@
+@font-face {
+    font-family: 'latobold';
+    src: url('../fonts/lato-bold-webfont.eot');
+    src: url('../fonts/lato-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-bold-webfont.woff2') format('woff2'),
+         url('../fonts/lato-bold-webfont.woff') format('woff'),
+         url('../fonts/lato-bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'latolight';
+    src: url('../fonts/lato-light-webfont.eot');
+    src: url('../fonts/lato-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-light-webfont.woff2') format('woff2'),
+         url('../fonts/lato-light-webfont.woff') format('woff'),
+         url('../fonts/lato-light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'latohairline';
+    src: url('../fonts/lato-thin-webfont.eot');
+    src: url('../fonts/lato-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-thin-webfont.woff2') format('woff2'),
+         url('../fonts/lato-thin-webfont.woff') format('woff'),
+         url('../fonts/lato-thin-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'latoregular';
+    src: url('../fonts/lato-regular-webfont.eot');
+    src: url('../fonts/lato-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-regular-webfont.woff2') format('woff2'),
+         url('../fonts/lato-regular-webfont.woff') format('woff'),
+         url('../fonts/lato-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html, body{
+	height: 100%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.back{
+    background: url(../images/main_image.png);
+    float: left;
+    width: 100%;
+    height: 880px;
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+    &:before{
+        content: "";
+        height: 880px;
+        background: black;
+        display: block;
+        color: #ffffff;
+        width: 100%;
+        left: 0;
+        top: 0;
+        opacity: 0.4;
+    }
+}
+.wrapper{
+    width: 1170px;
+    margin: 0 auto;
+}
+.wrapper-menu{
+    float: right;
+    margin: 50px 0 0 0;
+    li{
+        float: left;
+        padding: 0 30px 0 0;
+    }
+    a{
+        font-family: 'latobold';
+        font-size: 14px;
+        letter-spacing: 0.7px;
+        &:hover{
+            color: rgb(216, 216, 216);
+        }
+    }
+}
+.wrapper-menu__burgermenu{
+    cursor: pointer;
+    span{
+        width: 14px;
+        height: 2px;
+        display: block;
+        background: white;
+        margin: 2px 0;
+    }
+    &:hover span{
+        background: rgb(216, 216, 216);
+    }
+}
+.wrapper-text{
+    color: white;
+    text-align: center;
+    p{
+        font-family: 'Times New Roman', Times, serif;;
+        font-size: 36px;
+        font-weight: bold;
+        font-style: italic;
+        letter-spacing: 1.8px;
+        color: rgba(255, 255, 255, 0.7);
+        margin: 285px 0 0 0;
+    }
+    h1{
+        font-family: 'latobold';
+        font-size: 100px;
+        letter-spacing: 5px;
+        margin: 19px 0 40px 0;
+    }
+    div{
+        font-family: 'latoregular';
+        font-size: 14px;
+        letter-spacing: 0.7px;
+        margin: 41px 0 160px 0;
+    }
+}
+.wrapper-text__btnstart{
+    font-size: 18px;
+    font-family: 'latoregular';
+    letter-spacing: 0.45px;
+    border: 3px solid #ffffff;
+    display: inline-block;
+    padding: 25px 80px;
+    &:hover{
+        color: rgb(216, 216, 216);
+        border: 3px solid rgb(216, 216, 216);
+    }
+}
+.wrapper-text__btnreward{
+    font-family: 'latobold';
+    border-bottom: 1px solid white;
+    &:hover{
+        color: rgb(216, 216, 216);
+        border-bottom: 1px solid rgb(216, 216, 216);
+    }
+}
+.wrapper2-item{
+    vertical-align: top;
+    text-align: center;
+    display: inline-block;
+    margin: 125px 41px 97px 0; 
+    &:last-child{
+        margin: 125px 0 0 0;
+    }
+}
+.wrapper2-item__icon{
+    position: relative;
+    margin: 0 0 43px 0;
+    &:before{
+        content: "";
+        display: block;
+        width: 107px;
+        height: 107px;
+        border-radius: 50%;
+        border: 2px solid black;
+        position: absolute;
+        top: -25px;
+        left: 124px;
+    }
+}
+.icon_money{
+    margin: 16px 0 55px 0;
+    &:before{
+        top: -41px;
+    }
+}
+.caption{
+    font-family: 'latobold';
+    font-size: 16px;    
+    position: relative;
+    letter-spacing: 0.9px;
+    &:before{
+        content: "";
+        display: block;
+        width: 88px;
+        height: 1px;
+        background: #f69679;
+        position: absolute;
+        top: 24px;
+    }
+}
+.wrapper2-item__caption{
+    margin-bottom: 30px;
+    &:before{
+        left: 136px;
+    }
+}
+.wrapper2-item__description{
+    width: 360px;
+}
+.description{
+    font-family: 'latolight';
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.8px;
+}
+.wrapper3{
+    background: #f7f7f7;
+}
+.wrapper3__phone{
+    width: 547px;
+    height: 759px;
+    display: inline-block;
+    background: url(../images/iPhone_5s.png);
+    position: relative;
+    margin: 102px 76px 0 0;
+    img{
+        position: absolute;
+        margin: 158px 69px;
+    }
+}
+.wrapper3__text{
+    display: inline-block;
+    width: 543px;
+    vertical-align: top;
+    padding: 182px 0 0 0;
+}
+.wrapper3__caption{
+    margin-bottom: 30px;
+    &:before{
+        left: 0;
+    }
+}
+.wrapper3__description{
+    margin-bottom: 30px;
+}
+.wrapper4{
+    background: #453949;
+}
+.slider{
+    position: relative;
+    height: 462px;
+}
+.slider-item{
+    font-family: 'latohairline';
+    color: #8e8890;
+    text-align: center;
+    width: 100%;
+}
+.slider-item__backimg{
+    object-fit: cover;
+    width: 100%;
+    height: 462px;
+}
+.slider-item__faceimg{
+    position: absolute;
+    display: block;
+    margin: -376px 0 0 534px;
+}
+.slider-item__text{
+    font-size: 30px;
+    line-height: 1.2;
+    width: 888px;
+    margin: -235px 0 0 146px;
+}
+.slider-item__sign{
+    font-size: 18px;
+    font-style: italic;
+    margin: 10px 0 0 5px;
+}
+.slider-dots{
+    position: absolute;
+    margin: -91px 0 0 564px;
+}
+.slider-dots__item{
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background: #726975;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active,
+.slider-dots__item:hover{
+    background-color: white;
+}
+.slider .slider-item{
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes fade{
+    from{
+        opacity: .4
+    }
+    to{
+        opacity: 1
+    }
+}
+@keyframes fade{
+    from{
+        opacity: .4
+    }
+    to{
+        opacity: 1
+    }
+}
+.wrapper5__caption{
+    margin: 99px auto 51px auto;
+    width: 182px;
+    color: black;
+    &:before{
+        left: 40px;
+    }
+}
+.wrapper5{
+    width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    p{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 15.5px;
+        font-weight: bold;
+        font-style: italic;
+        letter-spacing: 0.78px;
+        margin-top: 76px;
+    }
+    h1{
+        margin-top: 8px;
+    }
+}
+.name{
+    font-family: 'latobold';
+    font-size: 36px;
+    letter-spacing: 1.8px;
+}
+@mixin imgsize {
+    width: 319px;
+    height: 224px;
+    display: inline-block;
+    margin: 0 0 0 -4px;
+}
+.wrapper5-item1{
+    background: url(../images/italian.png);
+    @include imgsize();
+    margin: 0;
+}
+.wrapper5-item2{
+    background: url(../images/indian.png);
+    @include imgsize();
+}
+.wrapper5-item3{
+    background: url(../images/franch.png);
+    @include imgsize();
+}
+.wrapper5-item4{
+    background: url(../images/STEAKHOUSE.png);
+    @include imgsize();
+}
+.wrapper5-item5{
+    background: url(../images/SEAFOOD.png);
+    @include imgsize();
+}
+.wrapper5-item6{
+    background: url(../images/sushi.png);
+    @include imgsize();
+    margin: 0;
+}
+.wrapper5-item7{
+    background: url(../images/mexican.png);
+    @include imgsize();
+}
+.wrapper5-item8{
+    background: url(../images/chinese.png);
+    @include imgsize();
+}
+.wrapper5-item9{
+    background: url(../images/pizza.png);
+    @include imgsize();
+}
+.wrapper5-item10{
+    background: url(../images/american.png);
+    @include imgsize();
+}
+.wrapper6-item{
+    display: inline-block;
+    margin: 59px 119px 60px 0;
+    text-align: center;
+    &:last-child{
+        margin: 0;
+    }
+}
+footer{
+    background: #f7f7f7;
+    border-top: 1px solid #e2e2e2;
+    div{
+        font-family: 'latoregular';
+        font-size: 14px;
+        color: rgba(139, 139, 139, 0.5);
+        margin: 42px 0;
+    }
+    span{
+        color: black;
+    }
+    &:after{
+        content: "";
+        clear: both;
+        display: block;
+    }
+}
+.footer-block1{
+    float: left;
+}
+.footer-block2{
+    float: right;
+}
