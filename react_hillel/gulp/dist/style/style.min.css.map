@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.scss"],"names":[],"mappings":"AAEA,KACE,eAHa,CAEf,QAII,UAAW,CACZ,EAID,uCAAY,CAAZ,+BAAgC","file":"style.min.css","sourcesContent":["$bg-color: #eee;\r\n\r\nbody {\r\n  background: $bg-color;\r\n\r\n  h1 {\r\n    color: blue;\r\n  }\r\n}\r\n\r\na {\r\n  transition: all 0.5s ease-in-out;\r\n}"]}

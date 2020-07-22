@@ -1,0 +1,5 @@
+{//объект конфигурации babel
+  "presets": [
+    "@babel/preset-env" //лоудер
+  ]
+}

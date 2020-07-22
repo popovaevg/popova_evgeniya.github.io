@@ -1,0 +1,3 @@
+export const CREATE_CARD = "CREATE_CARD";
+export const MOVE_CARD_TO_PROGRESS = "MOVE_CARD_TO_PROGRESS";
+export const EDIT_CARD = 'EDIT_CARD';

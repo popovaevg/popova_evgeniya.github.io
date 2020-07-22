@@ -1,0 +1,13 @@
+$bg-color: #eee;
+
+body {
+  background: $bg-color;
+
+  h1 {
+    color: blue;
+  }
+}
+
+a {
+  transition: all 0.5s ease-in-out;
+}
